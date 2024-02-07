@@ -1,1 +1,5 @@
 # ElectricityPrice-Linear_Regression
+
+For this case study, a machine learning model will be created using the linear regression technique to predict the price of electricity for the residential sector at California state based on the historical data available since 2008 regarding the energy produced in the country by each type of technology (coal, gas, solar, nuclear, wind, etc.), and also considering the growth in demand (users).
+
+In the analysis and exploration of data, it was found that there are strong correlations between some variables and the price of electrical energy, highlighting the increase in demand, so that variable was chosen to do the simple linear regression exercise, where it was obtained a model accuracy of 82.1%. In order to create a more robust model and involve more variables, it was chosen to add the energy information produced by the different generation sources: Coal, Natural Gas, Geothermal, Wind and Biomass. With this model created, an accuracy of 86.9% was obtained using the matrix regression method and 87.76% using the scikit learn libraries.
